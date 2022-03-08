@@ -6,7 +6,7 @@
 <h2>实现功能：</h2>
 体温每日自动打卡+邮件+天气提醒
 <p>1.健康日报每日早8点自动填报，
-<p>2.发送一条邮件到你的邮箱里
+<p>2.发送一条体温填报成功并带天气提醒的邮件到你的邮箱里。
 
  <h2>代码介绍：</h2>
  主要功能都在PostRequest类，分为四个方法getSessionId获取SessionID，bindUserInfo绑定用户，monitorRegister注册，cancelBind取消绑定
