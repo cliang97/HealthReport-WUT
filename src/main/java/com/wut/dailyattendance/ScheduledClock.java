@@ -28,7 +28,8 @@ public class ScheduledClock {
     @Autowired
     SendEmailUtil sendEmailUtil;
 
-    @Scheduled(cron = "0 20 9 * * ?")
+    //早上8点
+    @Scheduled(cron = "0 0 8 * * ?")
     public void Clock1() {
 
         PostRequest postRequest = new PostRequest();

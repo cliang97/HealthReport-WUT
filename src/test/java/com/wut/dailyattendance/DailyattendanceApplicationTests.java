@@ -36,7 +36,6 @@ class DailyattendanceApplicationTests {
         postRequest.bindUserInfo(sessionId, map, userAgent);
         //体温填报
         postRequest.monitorRegister(sessionId, "湖北省", "武汉市", "洪山区", "雄楚大道221号", userAgent);
-        //获取解绑返回值，为发送邮件做准备
         JSONObject cancelBind = postRequest.cancelBind(sessionId, userAgent);
         System.out.println(cancelBind);
     }
