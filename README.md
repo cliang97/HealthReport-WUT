@@ -16,6 +16,7 @@
 1.修改DailyattendanceConfig里面的sn和idCard属性，sn为身份证号，idCard为身份证后六位
 <p>2.运行DailyattendanceApplicationTests的测试文件
 <h4>二、所有功能</h4>
+你需要有一个服务器，新用户买一个也不贵
 1.修改ScheduledClock的@Scheduled(cron = "0 0 8 * * ?")注解可以改定时的时间
 2.修改ScheduledClock中的邮件的sendTo和sendFrom可以修改邮箱，sendFrom的邮箱需要申请一个授权码，
 在application.properties里配置。
