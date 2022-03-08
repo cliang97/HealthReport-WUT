@@ -8,6 +8,9 @@
 <p>1.健康日报每日早8点自动填报，
 <p>2.发送一条邮件到你的邮箱里
 
+ <h2>代码介绍：</h2>
+ 主要功能都在PostRequest类，分为四个方法getSessionId获取SessionID，bindUserInfo绑定用户，monitorRegister注册，cancelBind取消绑定
+ 
 
 <h2>使用教程</h2>
 <h2>注意使用前请先取消小程序的关联</h2>
@@ -17,8 +20,9 @@
 <p>2.运行DailyattendanceApplicationTests的测试文件
 <h4>二、所有功能</h4>
 你需要有一个服务器，新用户买一个也不贵
-<P>1.修改ScheduledClock的@Scheduled(cron = "0 0 8 * * ?")注解可以改定时的时间
+
+1.修改ScheduledClock的@Scheduled(cron = "0 0 8 * * ?")注解可以改定时的时间
 <p>2.修改ScheduledClock中的邮件的sendTo和sendFrom可以修改邮箱，sendFrom的邮箱需要申请一个授权码，
 在application.properties里配置。
- 用IDEA直接打包成jar包就可以部署，即部署即用
+ <p>用IDEA直接打包成jar包就可以部署，即部署即用
 
