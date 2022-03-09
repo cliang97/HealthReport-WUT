@@ -139,7 +139,7 @@ public class PostRequest {
         body.put("isFever", "0");
         body.put("isInSchool", "1");
         body.put("isLeaveChengdu", "0");
-        body.put("isSymptom", "1");
+        body.put("isSymptom", "0");
         body.put("temperature", DailyattendanceConfig.temperatures[(int) (Math.random() * (DailyattendanceConfig.temperatures.length))]);
         body.put("noonTemperature", DailyattendanceConfig.temperatures[(int) (Math.random() * (DailyattendanceConfig.temperatures.length))]);
         body.put("eveningTemperature", DailyattendanceConfig.temperatures[(int) (Math.random() * (DailyattendanceConfig.temperatures.length))]);
