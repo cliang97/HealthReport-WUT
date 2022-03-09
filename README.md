@@ -1,7 +1,8 @@
 # HealthReport-WUT
 武汉理工大学健康填报
 
-近期在空间看到一个同学发了一个用python写的体温填报的脚本，链接在[这](https://github.com/happy2h/Health-Report-WHUT)，恰逢自己在学Java，就想用Java语言也写一个，于是本项目就诞生了
+近期在空间看到一个同学发了一个用python写的体温填报的脚本，链接在[这](https://github.com/happy2h/Health-Report-WHUT)
+考虑到学校的小程序经常崩，无法应对积极防疫，体温填报不了，于是想写一个程序来进行体温填报
 
 <h2>实现功能：</h2>
 体温每日自动打卡+邮件+天气提醒
