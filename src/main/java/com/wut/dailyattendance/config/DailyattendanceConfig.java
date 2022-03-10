@@ -25,7 +25,7 @@ public class DailyattendanceConfig {
     };
 
     public static String[] temperatures = {
-            "36°C~36.5°C","36.5°C~36.9°C"
+            "36.5°C~36.9°C"
     };
 
     //20级新生账号是身份证号，其他年级的账号是学号，密码是身份证号后6位，
