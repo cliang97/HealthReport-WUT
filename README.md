@@ -26,6 +26,7 @@
 <p>2.修改ScheduledClock中的邮件的sendTo和sendFrom可以修改邮箱，sendFrom的邮箱需要申请一个授权码，
 在application.properties里配置。
  <p>用IDEA直接打包成jar包就可以部署，即部署即用
+  也可以用阿里云的部署插件Cloud Toolkit，很好用，一键部署
   
   好用的话点点关注哈哈哈
 
